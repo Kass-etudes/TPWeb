@@ -1,0 +1,132 @@
+
+body{
+    width: 100%;
+    font-family: "Verlag", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    position: relative;
+    background-color:white;
+    display: block;
+}
+
+
+header,body,footer{
+    width: 1024px; 
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body> div> nav ul{
+    border-bottom: 1.5px solid rgb(238, 238, 238);
+    border-top:  1.5px solid rgb(238, 238, 238);
+    padding-top: 15px;
+    padding-bottom: 3px;
+    font-weight:600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lightergray{
+    color: rgb(199, 196, 196);
+}
+body> div> nav > ul > li> a{
+    border-right: 2px solid rgb(236, 236, 236);
+    color: rgb(104, 103, 103);
+    padding-right: 15px;
+
+}
+.noborder{
+    border-right: 0;
+}
+
+header{
+    margin-top: -15px;
+    height: 150px;
+    width: 250%;
+    display: flex;
+    margin-bottom: -61px;
+
+}
+
+header >p{
+color: gray ;
+padding-top: 50px;
+padding-left: 15px;
+padding-right: 60px;
+}
+
+header> div> ul{
+    display: flex;
+    justify-content: space-between 50px;
+}
+
+.smalltext{
+    color:gray;
+    font-size: x-small;
+}
+
+.flexHeader{
+    padding-top: 50px;
+}
+
+.Don{
+    color:rgb(82, 82, 82);
+    font-weight: 600;
+    background-color: rgb(255, 230, 3);
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    width: 30%;
+    padding: 5px;
+    font-size: smaller; 
+}
+
+.yellowheart{
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    width: 15%;
+
+}
+
+.nav2{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: relative;
+    font-size: small;
+    font-weight: 550;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+}
+
+.nav2> li >a{
+    color: white;
+}
+
+.nav2> li>a:hover{ 
+border-bottom: 4px solid rgb(94, 255, 0);
+}
+section> a>div{
+  color: black;
+  display: flex;
+    font-size: small;
+}
+.img{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
